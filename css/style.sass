@@ -8,9 +8,10 @@ body
   background-size: cover
   font-family: 'Montserrat', sans-serif
 
-// - - - NAV - - - //
+// - - - NAV - - - /
 nav
   background: #262626
+  padding: 15px
   a
     color: $white
     &:hover
@@ -44,9 +45,9 @@ ul
 
 // - - - SIDEBAR - - - //
 .sidebar
+  background: -webkit-linear-gradient(top, #262626 50%, rgba(0, 0, 0, 0) 100%)
   position: absolute
   height: 100%
-  background: #262626
   width: 200px
   left: -200px
   transition: left 0.7s ease
@@ -56,15 +57,47 @@ ul
     left: 0px
     height: 100%
     width: 200px
-    background: #262626
     transition: left 0.5s ease
+    background: -webkit-linear-gradient(top, #262626 50%, rgba(0, 0, 0, 0) 100%)
 
   button
     position: relative
-    right: -70px
+    right: -80px
+    top: -200px
+    background-color: $mainColor
+    border-radius: 2px
+    transition: ease 0.7s all
 
     span
       background: white
+
+    &.rotated
+      transform: rotate(90deg)
+      transition: ease 0.5s all
+      background: rgba(40, 219, 210, 0.5)
+
+  h3
+    color: $mainColor
+    text-align: center
+    margin-bottom: -8px
+  p
+    color: $white
+    text-align: center
+
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    margin-top: 40px
+
+    li
+      color: $white
+      text-align: center
+      margin-bottom: 20px
+    a
+      color: $white
+      text-decoration: none
+
 
 
 // - - - HELPER CLASSES - - - ??
