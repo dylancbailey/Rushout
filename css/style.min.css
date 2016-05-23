@@ -7,6 +7,8 @@ ul .subtext{font-size:12px;margin-left:-20px}
 .nav-middle{padding-left:50px}
 .navbar-right li a{padding:5px 15px;margin-top:10px}
 .main-btn{background:#28DBD2;border-radius:20px}
-.sidebar{position:absolute;height:100%;background:red;width:200px;left:-200px;-webkit-transition:left .7s ease;transition:left .7s ease}
-.sidebar.sidebar-visible{position:absolute;left:0;height:100%;width:200px;background:red;-webkit-transition:left .5s ease;transition:left .5s ease}
+.sidebar{position:absolute;height:100%;background:#262626;width:200px;left:-200px;-webkit-transition:left .7s ease;transition:left .7s ease}
+.sidebar.sidebar-visible{position:absolute;left:0;height:100%;width:200px;background:#262626;-webkit-transition:left .5s ease;transition:left .5s ease}
+.sidebar button{position:relative;right:-70px}
+.sidebar button span{background:#fff}
 .vertical-align{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
