@@ -70,6 +70,9 @@
               <li><a href="#"></a>CONNEXION</li>
               <li class="social-active"><a href="#"></a>INSCRIPTION</li>
           </ul>
+          <div class="facebook">
+            <p><span class="glyphicon glyphicon-off"></span>Connecion avec Facebook</p>
+          </div>
         </div>
       </div>
     </div>
@@ -78,8 +81,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script>
       $(document).ready(function() {
-          $('.sidebar').on('click', function() {
-              $(this).toggleClass('sidebar-visible');
+          $('.navbar-toggle').on('click', function() {
+              $('.sidebar').toggleClass('sidebar-visible');
           });
 
           $('button').click(function() {
