@@ -1,4 +1,14 @@
 body{height:100vh;width:100%;background:url(../crowd.jpg) no-repeat center center fixed;background-size:cover;font-family:Montserrat,sans-serif}
-.nav{width:100%;height:50px;background-color:#262626}
+.nav{width:100%;height:75px;background-color:#262626}
+.nav header{display:inline-block}
+.nav #title{color:#28DBD2;margin-left:20px}
+.nav span{color:#ecf0f1;font-size:12px;padding-left:10px}
+.nav ul{list-style:none;margin:0;padding:0;display:inline-block;margin-left:40px}
+.nav ul li{margin-right:20px}
+.nav .user{margin-right:20px;margin-top:25px}
+.nav .user .main-btn{background-color:#28DBD2;padding:5px 10px;border-radius:20px}
+.nav li{display:inline-block;font-size:12px}
+.nav li a{color:#ecf0f1;text-decoration:none}
 .sidebar{position:absolute;height:100%;background:red;width:200px;left:-200px;-webkit-transition:left .7s ease;transition:left .7s ease}
 .sidebar.sidebar-visible{position:absolute;left:0;height:100%;width:200px;background:red;-webkit-transition:left .5s ease;transition:left .5s ease}
+.vertical-align{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
