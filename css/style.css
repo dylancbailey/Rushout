@@ -136,13 +136,37 @@ ul .subtext {
   padding: 10px;
   border: 1px solid #ecf0f1;
   border-radius: 40px;
-  width: 350px;
+  width: 300px;
   margin: 0 auto; }
   .facebook p {
     color: #ecf0f1;
     margin-bottom: 0; }
   .facebook span {
     margin-right: 20px; }
+
+.ou {
+  color: #ecf0f1;
+  margin: 30px;
+  font-size: 18px; }
+
+.input-group {
+  width: 300px;
+  margin: 0 auto; }
+  .input-group span {
+    background: none;
+    color: white;
+    border: 1px solid #6a6a6a;
+    border-right: none; }
+  .input-group input {
+    background: none;
+    border: 1px solid #6a6a6a;
+    border-left: none;
+    color: #ecf0f1; }
+    .input-group input:focus {
+      box-shadow: none;
+      outline: none;
+      border: 1px solid #6a6a6a;
+      border-left: none; }
 
 .vertical-align {
   position: relative;
