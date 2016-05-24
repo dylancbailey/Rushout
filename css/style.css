@@ -111,6 +111,8 @@ ul .subtext {
         border-bottom: 1px solid #6a6a6a; }
       .sidebar ul li:nth-child(2) {
         border-bottom: 1px solid #6a6a6a; }
+      .sidebar ul li:hover {
+        background: rgba(106, 106, 106, 0.5); }
     .sidebar ul a {
       color: #ecf0f1;
       text-decoration: none; }
