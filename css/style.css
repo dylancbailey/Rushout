@@ -20,7 +20,13 @@ nav {
   nav .navbar-brand {
     color: #28DBD2;
     font-size: 25px;
-    margin-top: -3px; }
+    margin-top: -3px;
+    -webkit-transition: ease 0.3s all;
+            transition: ease 0.3s all; }
+    nav .navbar-brand:hover {
+      color: rgba(41, 219, 210, 0.5);
+      -webkit-transition: ease 0.3s all;
+              transition: ease 0.3s all; }
 
 ul.nav a:hover {
   background: none;
@@ -34,7 +40,15 @@ ul .subtext {
 
 .navbar-right li a {
   padding: 5px 15px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  -webkit-transition: ease 0.3s all;
+          transition: ease 0.3s all; }
+  .navbar-right li a:hover {
+    background: rgba(41, 219, 210, 0.5);
+    -webkit-transition: ease 0.3s all;
+            transition: ease 0.3s all; }
+.navbar-right li .little-guy:hover {
+  background: none; }
 
 .main-btn {
   background: #28DBD2;
@@ -108,7 +122,7 @@ ul .subtext {
   z-index: 1; }
   #main .content-box {
     width: 400px;
-    height: 600px;
+    height: 550px;
     background-color: #262626;
     margin: 0 auto;
     z-index: 1; }
@@ -134,6 +148,9 @@ ul .subtext {
     display: inline;
     padding: 0 50px;
     color: #ecf0f1; }
+    .social li:hover {
+      border-bottom: 2px solid rgba(41, 219, 210, 0.5);
+      cursor: pointer; }
     .social li:nth-child(2) {
       border-bottom: 2px solid #28DBD2; }
 
@@ -142,7 +159,8 @@ ul .subtext {
   border: 1px solid #ecf0f1;
   border-radius: 40px;
   width: 300px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  cursor: pointer; }
   .facebook p {
     color: #ecf0f1;
     margin-bottom: 0; }
@@ -157,6 +175,8 @@ ul .subtext {
 .input-group {
   width: 300px;
   margin: 0 auto; }
+  .input-group .glyphicon {
+    color: rgba(255, 255, 255, 0.5); }
   .input-group span {
     background: none;
     color: white;
@@ -172,6 +192,29 @@ ul .subtext {
       outline: none;
       border: 1px solid #6a6a6a;
       border-left: none; }
+
+.conditions {
+  text-align: right;
+  color: #6a6a6a;
+  padding-right: 50px;
+  margin-top: 10px;
+  font-size: 12px; }
+
+.first-group {
+  margin-bottom: 15px; }
+
+.continue-btn {
+  background-color: #28DBD2;
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  margin: 0 auto;
+  cursor: pointer; }
+  .continue-btn h1 {
+    font-size: 16px;
+    color: #ecf0f1;
+    margin: 0;
+    padding: 20px 0; }
 
 .vertical-align {
   position: relative;

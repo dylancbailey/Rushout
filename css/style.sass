@@ -1,5 +1,6 @@
 $mainColor: #28DBD2
 $white: #ecf0f1
+$transition: ease 0.3s all
 
 body
   height: 100%
@@ -25,6 +26,10 @@ nav
     color: $mainColor
     font-size: 25px
     margin-top: -3px
+    transition: $transition
+    &:hover
+      color: rgba(41, 219, 210, 0.5)
+      transition: $transition
 
 ul
   &.nav
@@ -43,7 +48,13 @@ ul
     a
       padding: 5px 15px
       margin-top: 10px
-
+      transition: $transition
+      &:hover
+        background: rgba(41, 219, 210, 0.5)
+        transition: $transition
+    .little-guy
+      &:hover
+        background: none
 .main-btn
   background: $mainColor
   border-radius: 20px
@@ -120,7 +131,7 @@ ul
 
   .content-box
     width: 400px
-    height: 600px
+    height: 550px
     background-color: #262626
     margin: 0 auto
     z-index: 1
@@ -149,6 +160,9 @@ ul
     display: inline
     padding: 0 50px
     color: $white
+    &:hover
+      border-bottom: 2px solid rgba(41, 219, 210, 0.5)
+      cursor: pointer
     &:nth-child(2)
       border-bottom: 2px solid $mainColor
 
@@ -158,6 +172,7 @@ ul
   border-radius: 40px
   width: 300px
   margin: 0 auto
+  cursor: pointer
 
   p
     color: $white
@@ -175,6 +190,9 @@ ul
   width: 300px
   margin: 0 auto
 
+  .glyphicon
+    color: rgba(255, 255, 255, 0.5)
+
   span
     background: none
     color: white
@@ -191,6 +209,29 @@ ul
       outline: none
       border: 1px solid #6a6a6a
       border-left: none
+.conditions
+  text-align: right
+  color: #6a6a6a
+  padding-right: 50px
+  margin-top: 10px
+  font-size: 12px
+
+.first-group
+  margin-bottom: 15px
+
+.continue-btn
+  background-color: $mainColor
+  width: 400px
+  height: 50px
+  text-align: center
+  margin: 0 auto
+  cursor: pointer
+
+  h1
+    font-size: 16px
+    color: $white
+    margin: 0
+    padding: 20px 0
 
 
 // - - - HELPER CLASSES - - - //
