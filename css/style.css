@@ -121,6 +121,18 @@ ul .subtext {
       color: #ecf0f1;
       text-decoration: none; }
 
+.mobile {
+  position: absolute;
+  width: 100%;
+  height: 100%; }
+  .mobile h1 {
+    text-align: center;
+    color: #28DBD2; }
+  .mobile span {
+    color: #ecf0f1;
+    font-size: 12px;
+    vertical-align: middle; }
+
 #main {
   position: absolute;
   width: 100%;
