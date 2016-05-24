@@ -75,7 +75,7 @@ ul .subtext {
   .sidebar button {
     position: relative;
     right: -80px;
-    top: -260px;
+    top: -320px;
     background-color: rgba(40, 219, 210, 0.3);
     border-radius: 2px;
     -webkit-transition: ease 0.7s all;
@@ -113,6 +113,10 @@ ul .subtext {
         border-bottom: 1px solid #6a6a6a; }
       .sidebar ul li:hover {
         background: rgba(106, 106, 106, 0.5); }
+    .sidebar ul .curateur {
+      background-color: #28DBD2; }
+      .sidebar ul .curateur:hover {
+        background: rgba(41, 219, 210, 0.5); }
     .sidebar ul a {
       color: #ecf0f1;
       text-decoration: none; }
